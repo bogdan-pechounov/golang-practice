@@ -34,7 +34,6 @@ func test3() {
 	// s[1] = 'a'
 	fmt.Printf("%v, %T\n", s, s)
 	fmt.Printf("%v, %T\n", s[3], s[3])
-	// b := byte(s) todo what byte returns by itself
 	b := []byte(s)
 	fmt.Printf("%v, %T\n", b, b)
 }
